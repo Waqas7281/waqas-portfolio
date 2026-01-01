@@ -487,15 +487,12 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 border-2 border-cyan-400 rounded-full flex justify-center">
-            <div className="w-1 h-3 bg-cyan-400 rounded-full mt-2 animate-pulse" />
-          </div>
-        </div>
+       
       </section>
 
       {/* About Section */}
       <section id="about" className="py-20 px-4 bg-slate-900/50">
+      
         <div className="max-w-6xl mx-auto">
           <h2 className="text-5xl font-bold text-center mb-16 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
             About Me
@@ -517,7 +514,7 @@ const Portfolio = () => {
                 best solutions.
               </p>
 
-              <div className="grid grid-cols-2 gap-4 pt-4">
+              <div className="grid grid-cols-1  md:grid-cols-2  gap-4 pt-4">
                 <div className="flex items-start gap-3">
                   <Mail className="w-6 h-6 text-cyan-400 mt-1" />
                   <div>
