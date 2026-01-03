@@ -460,12 +460,15 @@ const Portfolio = () => {
 
             <div className="flex gap-4 justify-center md:justify-start flex-wrap mb-6">
               <a
-                href="#contact"
+                href="https://wa.me/923218636730?text=Hello%20Waqas!%20I%20want%20to%20hire%20you."
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-full font-semibold hover:scale-110 transition-transform duration-300 shadow-lg shadow-cyan-500/50 flex items-center gap-2"
               >
                 <Mail className="w-5 h-5" />
                 Hire Me
               </a>
+
               <a href="/WaqasShah.pdf" download>
                 <button className="px-8 py-3 border-2 border-cyan-400 rounded-full font-semibold hover:bg-cyan-400 hover:text-slate-900 transition-all duration-300 flex items-center gap-2">
                   <Download className="w-5 h-5" />
