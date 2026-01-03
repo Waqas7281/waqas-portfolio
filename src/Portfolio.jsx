@@ -41,8 +41,7 @@ const Portfolio = () => {
     phone: "+92 321 8636730",
     location: "Lahore, Pakistan",
     github: "https://github.com/Waqas7281",
-    linkedin:
-      "https://linkedin.com/in/https://www.linkedin.com/in/waqas-ali-shah-76a69b22a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    linkedin: "https://www.linkedin.com/feed/",
     image: "/port1.jpeg", // Replace with your image URL
   };
 
