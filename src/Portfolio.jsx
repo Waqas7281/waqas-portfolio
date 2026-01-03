@@ -1061,7 +1061,8 @@ const Portfolio = () => {
                   <Linkedin className="w-5 h-5" />
                 </a>
                 <a
-                  href={`mailto:${personalInfo.email}`}
+                  href="https://wa.me/923218636730?text=Hello%20Waqas!%20I%20want%20to%20hire%20you."
+                  target="_blank"
                   className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-pink-500 transition-colors"
                 >
                   <Mail className="w-5 h-5" />
