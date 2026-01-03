@@ -111,7 +111,7 @@ const Portfolio = () => {
       tech: ["React", "Express", "PostgreSQL", "TypeScript"],
       color: "from-purple-500 to-pink-500",
       github: "#",
-      live: "https://frontend-food-mark.vercel.app/signin",
+      live: "https://frontend-food-mark.vercel.app",
       features: ["REST API", "JWT Auth"],
     },
     {
