@@ -466,10 +466,12 @@ const Portfolio = () => {
                 <Mail className="w-5 h-5" />
                 Hire Me
               </a>
-              <button className="px-8 py-3 border-2 border-cyan-400 rounded-full font-semibold hover:bg-cyan-400 hover:text-slate-900 transition-all duration-300 flex items-center gap-2">
-                <Download className="w-5 h-5" />
-                Download CV
-              </button>
+              <a href="/WaqasShah.pdf" download>
+                <button className="px-8 py-3 border-2 border-cyan-400 rounded-full font-semibold hover:bg-cyan-400 hover:text-slate-900 transition-all duration-300 flex items-center gap-2">
+                  <Download className="w-5 h-5" />
+                  Download CV
+                </button>
+              </a>
             </div>
 
             {/* Quick Stats */}
@@ -489,13 +491,10 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-
-       
       </section>
 
       {/* About Section */}
       <section id="about" className="py-20 px-4 bg-slate-900/50">
-      
         <div className="max-w-6xl mx-auto">
           <h2 className="text-5xl font-bold text-center mb-16 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
             About Me
